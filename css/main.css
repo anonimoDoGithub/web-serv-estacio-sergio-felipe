@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'PoppinsMedium';
+    src: url('../fonts/Poppins-Medium.otf');
+}
+@font-face {
+    font-family: 'PoppinsRegular';
+    src: url('../fonts/Poppins-Regular.otf');
+}
+
+:root {
+    --color-background: #fffdf7;
+    --color-primary: #ffbf00;
+    --color-secundary: #fff2cc;
+    --color-black: #212121;
+    --color-white: #ffffff;
+    --color-text: #4f4f4f;
+    --color-text-out: #90908e;
+    --color-red: #e74e3c;
+    --color-green: #2ecc71;
+    --color-separete: #cccccc;
+}
+
+html, body {
+    background-color: var(--color-background);
+    font-family: 'PoppinsRegular', 'Rubik', sans-serif;
+    color: var(--color-text);
+}
+
+b {
+    font-family: 'PoppinsMedium', 'Rubik', sans-serif;
+}
+
+.nav-link {
+    color: var(--color-black);
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+
+}
