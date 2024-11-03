@@ -29,6 +29,10 @@ html, body {
     text-decoration: none;
 }
 
+a {
+    color: var(--color-black-heavy);
+}
+
 b {
     font-family: 'PoppinsMedium', 'Rubik', sans-serif;
 }
