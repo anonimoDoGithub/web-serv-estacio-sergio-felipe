@@ -29,10 +29,6 @@ html, body {
     text-decoration: none;
 }
 
-a {
-    color: var(--color-black-heavy);
-}
-
 b {
     font-family: 'PoppinsMedium', 'Rubik', sans-serif;
 }
@@ -236,7 +232,7 @@ a.navbar-brand {
     right: 0;
     left: 0;
     height: 500px;
-    background-image: url(../img/bg-icons-2.png);
+    background-image: url(../img/bg-icons-2.webp);
 }
 
 .cardapio {
@@ -249,7 +245,7 @@ a.navbar-brand {
     left: 0;
     right: 0;
     height: 500px;
-    background-image: url(../img/bg-icons-1.png);
+    background-image: url(../img/bg-icons-1.webp);
 }
 
 .container-menu {
@@ -369,7 +365,7 @@ a.navbar-brand {
     left: 0;
     right: 0;
     height: 500px;
-    background-image: url(../img/bg-icons-1.png);
+    background-image: url(../img/bg-icons-1.webp);
 }
 
 .imagem-depoimento {
@@ -383,17 +379,17 @@ a.navbar-brand {
 }
 
 #depoimento-1 .imagem-depoimento {
-    background-image: url(../img/diego.jpg);
+    background-image: url(../img/diego.webp);
     background-size: cover;
 }
 
 #depoimento-2 .imagem-depoimento {
-    background-image: url(../img/ana.jpg);
+    background-image: url(../img/ana.webp);
     background-size: cover;
 }
 
 #depoimento-3 .imagem-depoimento {
-    background-image: url(../img/joao.jpg);
+    background-image: url(../img/joao.webp);
     background-size: cover;
 }
 
